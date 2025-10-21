@@ -1,0 +1,13 @@
+name: AlgoAgent Dashboard
+author: Neuraeon
+description: "Open-WebUI visual interface for the Algorithmic Trading AI Agent"
+version: 1.0
+routes:
+  - /charts
+  - /assets
+  - /signals
+permissions:
+  - read
+  - write
+entrypoint: dashboard.html
+
